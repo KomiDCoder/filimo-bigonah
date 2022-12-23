@@ -31,4 +31,3 @@ aboutDescription.innerHTML +=
 aboutSeries.appendChild(aboutDescription);
 mainContent.appendChild(aboutSeries);
 containerElement.appendChild(mainContent);
-containerElement.innerHTML += "<h5>" + "قسمت‌های بی گناه" + "</h5>";
