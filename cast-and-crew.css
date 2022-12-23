@@ -1,0 +1,59 @@
+#cast-crew {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+}
+#cast-crew h5 {
+  margin: 0;
+  margin-top: 60px;
+}
+#cast-crew ul {
+  padding-right: 10px;
+}
+#cast-crew #cast-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+#cast-crew #cast-list li {
+  padding: 2px;
+  padding-left: 10px;
+  background: #212121;
+  border-radius: 40px;
+  flex-direction: row-reverse;
+  gap: 6px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: 400px;
+}
+#cast-crew #cast-list img {
+  width: 30px;
+  border-radius: 50%;
+}
+#cast-crew #cast-list span {
+  font-size: 10px;
+}
+#cast-crew #crew-list {
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#cast-crew #crew-list li {
+  padding: 0px 0px 30px 30px;
+}
+#cast-crew #crew-list p {
+  font-size: 9px;
+  margin: 0;
+}
+#cast-crew #crew-list p a {
+  transition: all 150ms linear;
+  color: white;
+}
+#cast-crew #crew-list p a:hover {
+  color: #fdc13c;
+}
+#cast-crew #crew-list .crew-title {
+  color: #828282;
+}

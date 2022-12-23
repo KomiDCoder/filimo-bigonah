@@ -1,0 +1,29 @@
+#main-content {
+  width: 100%;
+}
+#main-content #about-series {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 30px;
+  color: white;
+}
+#about-series img {
+  width: 50%;
+}
+#about-series #about-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 50%;
+}
+#about-series #about-description h5 {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0;
+}
+#about-series #about-description p {
+  color: #b3b3b3;
+  font-size: 9px;
+}

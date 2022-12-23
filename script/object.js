@@ -63,7 +63,7 @@ var biGonah = {
       img: "https://static.cdn.asset.filimo.com/flmt/rvw_cast_10215_1-s.jpg",
     },
     cast8: {
-      name8: "حسین پورکریمی",
+      name: "حسین پورکریمی",
       img: "https://static.cdn.asset.filimo.com/flmt/rvw_cast_13847_1-s.jpg",
     },
     cast9: {
@@ -88,7 +88,7 @@ var biGonah = {
     },
     cast14: {
       name: "مهران وثوقی",
-      img: "https://www.filimo.com/assets/web/ui/img-AVSaaNR8SS6lNmnzviOVcw/art-board.png",
+      img: "./user-profile-4255.png",
     },
     cast15: {
       name: "مسعود رایگان",
@@ -112,26 +112,39 @@ var biGonah = {
     },
     cast20: {
       name: "یگانه رادبخش",
-      img: "https://www.filimo.com/assets/web/ui/img-AVSaaNR8SS6lNmnzviOVcw/art-board.png",
+      img: "./user-profile-4255.png",
     },
   },
   crews: {
-    crew1: { crewtitle: "کارگردان", crewName: "مهران احمدی" },
-    crew2: { crewtitle: "تهیه‌کننده", crewName: "نوین کارن فیلم" },
-    crew3: { crewtitle: "تهیه‌کننده", crewName: "مصطفی کیایی" },
-    crew4: { crewtitle: "مدیر فیلمبرداری", crewName: "حسین جلیلی" },
-    crew5: { crewtitle: "تدوین‌گر", crewName: "نیما جعفری جوزانی" },
-    crew6: { crewtitle: "آهنگساز", crewName: "آرمان موسی پور" },
-    crew7: { crewtitle: "مدیر تولید", crewName: "شهاب علی بخشی" },
-    crew8: { crewtitle: "طراح لباس", crewName: "مهدی قوچانی" },
-    crew9: { crewtitle: "طراح چهره‌پردازی", crewName: "عباس عباسی" },
-    crew10: { crewtitle: "صدابردار", crewName: "امیر نوبخت" },
-    crew11: { crewtitle: "مجری طرح", crewName: "محسن کیایی" },
-    crew12: { crewtitle: "منشی صحنه", crewName: "سعیده دلیریان" },
-    crew13: { crewtitle: "عکاس", crewName: "محسن کرمانی" },
-    crew14: { crewtitle: "نویسنده", crewName: "محسن کیایی" },
-    crew15: { crewtitle: "نویسنده", crewName: "عماد رضایی نیک" },
-    crew16: { crewtitle: "نویسنده", crewName: "رضا علیپور" },
+    crew1: {
+      crewTitle: "کارگردان",
+      crewName: "مهران احمدی",
+    },
+    crew2: {
+      crewTitle: "تهیه‌کننده",
+      crewName: {
+        name1: "نوین کارن فیلم",
+        name2: "مصطفی کیایی",
+      },
+    },
+    crew3: { crewTitle: "مدیر فیلمبرداری", crewName: "حسین جلیلی" },
+    crew4: { crewTitle: "تدوین‌گر", crewName: "نیما جعفری جوزانی" },
+    crew5: { crewTitle: "آهنگساز", crewName: "آرمان موسی پور" },
+    crew6: { crewTitle: "مدیر تولید", crewName: "شهاب علی بخشی" },
+    crew7: { crewTitle: "طراح لباس", crewName: "مهدی قوچانی" },
+    crew8: { crewTitle: "طراح چهره‌پردازی", crewName: "عباس عباسی" },
+    crew9: { crewTitle: "صدابردار", crewName: "امیر نوبخت" },
+    crew10: { crewTitle: "مجری طرح", crewName: "محسن کیایی" },
+    crew11: { crewTitle: "منشی صحنه", crewName: "سعیده دلیریان" },
+    crew12: { crewTitle: "عکاس", crewName: "محسن کرمانی" },
+    crew13: {
+      crewTitle: "نویسنده",
+      crewName: {
+        name1: "محسن کیایی",
+        name2: "عماد رضایی نیک",
+        name3: "رضا علیپور",
+      },
+    },
   },
   suggestion: {
     film1: {

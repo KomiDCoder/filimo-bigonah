@@ -10,6 +10,11 @@
   font-family: iransans;
   src: url(./font/FontsFree-Net-ir_sans.ttf);
 }
+ul,
+li {
+  padding: 0;
+  list-style: none;
+}
 a {
   text-decoration: none;
 }
@@ -20,13 +25,14 @@ body {
 .yellow-color {
   color: #fdc13c;
 }
-.main {
+#main {
   position: relative;
   direction: rtl;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: black;
+  align-items: center;
+  background-color: #151515;
 }
 #header {
   position: fixed;
@@ -49,22 +55,33 @@ body {
   padding: 0px 20px;
   border-left: 1px solid #393939;
 }
-.main #container {
+#main #container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-size: cover;
-  position: relative;
+  width: 75%;
+}
+#container #title-desc-container {
   width: 100%;
   height: 426px;
-  background-color: black;
+  background-repeat: no-repeat;
+  background-position: -150px;
+  background-size: cover;
+}
+#main #container:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  background: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  height: 426px;
 }
 
 #container #titleDescription {
-  padding: 0 159px;
-  padding-top: 52px;
   position: relative;
+  padding-top: 52px;
   z-index: 2;
   display: flex;
   justify-content: flex-start;
@@ -72,7 +89,6 @@ body {
   align-items: center;
   width: 100%;
   height: 85%;
-  background: rgba(0, 0, 0, 0.6);
 }
 #container #titleDescription img {
   margin-bottom: 10px;
@@ -91,13 +107,9 @@ body {
   color: white;
 }
 #container #watch-element {
-  padding: 0 159px;
-  position: relative;
   width: 100%;
   height: 15%;
-
-  background: rgba(0, 0, 0, 0.6);
 }
 #container #watch-element .watch-element-child {
-  border-top: 1px solid #393939;
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
