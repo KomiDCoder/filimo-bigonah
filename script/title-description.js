@@ -1,10 +1,5 @@
-var headerElement = document.getElementById("header");
-var logoImg = document.createElement("img");
-logoImg.setAttribute("src", biGonah.filimoLogo);
 var titleDescriptionContainer = document.createElement("div");
 titleDescriptionContainer.setAttribute("id", "title-desc-container");
-headerElement.appendChild(logoImg);
-headerElement.innerHTML += "<p>" + "|" + "</p>";
 var containerElement = document.getElementById("container");
 titleDescriptionContainer.style.backgroundImage = "url(" + biGonah.bgImg + ")";
 var titleDescription = document.createElement("div");

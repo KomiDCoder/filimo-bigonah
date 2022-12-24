@@ -1,0 +1,74 @@
+#header {
+  color: white;
+  direction: rtl;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 42px;
+  padding: 0 15px;
+  background: #000;
+  z-index: 100;
+}
+#header #right-nav {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 50%;
+}
+.filimo-hover-button-animation {
+  transition: all 0.3s linear;
+  color: #ababab;
+}
+.filimo-hover-button-animation:hover {
+  color: #fdc13c;
+}
+#right-nav .filimotour {
+  display: flex;
+  align-items: center;
+  font-size: 9px;
+  padding: 8px;
+  gap: 3px;
+}
+#right-nav .filimotour img {
+  height: 15px;
+  width: 13px;
+}
+#right-nav .logo {
+  width: 80px;
+  padding: 8px;
+}
+#right-nav p {
+  padding: 0px 20px;
+}
+#left-nav {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+#left-nav a {
+  color: white;
+
+  border-radius: 5px;
+  font-size: 9px;
+}
+#left-nav .subscription {
+  transition: all 0.3s ease-in;
+  padding: 7px 16px;
+  background: rgb(21, 145, 77);
+}
+#left-nav .subscription:hover {
+  background: rgba(21, 145, 77);
+  opacity: 0.869;
+}
+#left-nav .enter-filimo {
+  transition: all 0.3s ease-in;
+  background: #343434;
+  padding: 7px 12px;
+}
+#left-nav .enter-filimo:hover {
+  background: #494949;
+}

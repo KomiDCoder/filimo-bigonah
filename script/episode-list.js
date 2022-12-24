@@ -15,5 +15,39 @@ episodeList.innerHTML +=
   "</a>" +
   "</div>";
 episodeList.innerHTML +=
-  "<div>" + "<a href='#' class='season'>" + "فصل اول" + "</a>" + "</div>";
+  "<div class='seasons'>" +
+  "<a href='#' class='season'>" +
+  "فصل اول" +
+  "</a>" +
+  "</div>";
+
+episodeList.innerHTML +=
+  "<div class='episode'>" +
+  "<img src =" +
+  biGonah.episode.ep1.img +
+  "/>" +
+  "<div class='episode-description'>" +
+  "<h5>" +
+  biGonah.episode.ep1.title +
+  "</h5>" +
+  "<p>" +
+  biGonah.episode.ep1.story +
+  "</p>" +
+  "<div class='rating'>" +
+  "<span>" +
+  "<img src='thumb-up-fill.svg'/ class='thumb-up'>" +
+  biGonah.episode.ep1.rating.percent +
+  "%" +
+  "</span>" +
+  "<span>" +
+  "(" +
+  biGonah.episode.ep1.rating.total +
+  " " +
+  "رای" +
+  ")" +
+  "</span>" +
+  "</div>" +
+  "</div>" +
+  "</div>";
+
 containerElement.appendChild(episodeList);

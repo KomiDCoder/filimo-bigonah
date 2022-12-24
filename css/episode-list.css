@@ -1,0 +1,76 @@
+#episode-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#episode-list .episode-list-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 13px;
+}
+#episode-list .episode-list-top a {
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+#episode-list .episode-list-top a span {
+  padding-top: 7px;
+}
+#episode-list .season {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #e9a000;
+  border-radius: 8px;
+  color: #e9a000;
+  padding: 8px 14px;
+  font-size: 9px;
+  margin-top: 32px;
+}
+#episode-list .episode {
+  background: #1e1e1e;
+  padding: 15px;
+  display: flex;
+  color: white;
+  width: 100%;
+  margin-top: 32px;
+}
+#episode-list .episode img {
+  width: 20%;
+  border-radius: 8px;
+}
+#episode-list .episode .episode-description {
+  padding: 5px 15px 0 0;
+}
+#episode-list .episode .episode-description h5 {
+  margin: 0;
+}
+#episode-list .episode .episode-description p {
+  color: #ababab;
+  font-size: 10px;
+}
+#episode-list .episode .thumb-up {
+  width: 10px;
+  height: 10px;
+}
+.rating {
+  margin-top: 23px;
+  display: flex;
+  align-items: center;
+  justify-content: stretch;
+  gap: 2px;
+}
+.rating span:first-child {
+  gap: 2px;
+  font-size: 10px;
+  color: #ababab;
+  display: flex;
+  align-items: center;
+}
+.rating span:last-child {
+  color: #737373;
+  font-size: 9px;
+}
