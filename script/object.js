@@ -1,8 +1,7 @@
 var biGonah = {
   bgImg: "https://static.cdn.asset.filimo.com/flmt/mov_cvr_101725_729.jpg",
   videoImage: "https://static.cdn.asset.aparat.com/avt/48733771-7226__5912.jpg",
-  filimoLogo:
-    "https://www.filimo.com/assets/web/ui/img-AVSaaNR8SS6lNmnzviOVcw/filimo/fa-filimo-dark-logo.png",
+  filimoLogo: "../logo--color-white.png",
   poster: "https://static.cdn.asset.filimo.com/flmt/mov_101725_44660-m.jpg",
   title: "سریال بی‌ گناه",
   engTitle: "Innocent",
@@ -13,22 +12,22 @@ var biGonah = {
   imdb: 5.3,
   adult: {
     value: true,
-    text: "مناسب برای بالای 12 سال",
+    text: "مناسب برای بالای ۱۲ سال",
   },
-  releaseDate: "یکشنبه‌ها، ساعت 8 صبح",
+  releaseDate: "یکشنبه‌ها، ساعت ۸ صبح",
   director: {
     fullName: "مهران احمدی",
     job: "کارگردان",
   },
   production: {
     country: "ایران",
-    year: 1400,
+    year: "۱۴۰۰",
   },
   genre: {
-    drama: true,
-    family: true,
+    genre1: "خانوادگی",
+    genre2: "درام",
   },
-  numberOfEpisode: "1 فصل و 17 قسمت",
+  numberOfEpisode: "۱ فصل و ۱۷ قسمت",
   story:
     "بهمن مردانی بعد از ۲۵ سال برای پیدا کردن عشق گمشده اش به تهران باز میگردد.",
   about:
