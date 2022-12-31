@@ -39,6 +39,6 @@ for (var key in biGonah.crews) {
   crewList.appendChild(crewListItem);
 }
 castCrew.appendChild(castList);
-castCrew.innerHTML += "<h5>" + "بازیگران سریال بی گناه" + "</h5>";
+castCrew.innerHTML += "<h5>" + "سایر عوامل سریال بی گناه" + "</h5>";
 castCrew.appendChild(crewList);
 containerElement.appendChild(castCrew);

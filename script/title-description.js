@@ -19,7 +19,7 @@ titleDescriptionRating.setAttribute("class", "title-description-rating");
 titleDescriptionRating.innerHTML +=
   "<span class='people-rating'>" +
   "<span>" +
-  "<img src='thumb-up-white.svg'/>" +
+  "<img src='svgs/thumb-up-white.svg'/>" +
   "</span>" +
   "<span>" +
   "<span>" +
@@ -35,7 +35,7 @@ titleDescriptionRating.innerHTML +=
 titleDescriptionRating.innerHTML +=
   "<span class='imdb-rating'>" +
   "<span>" +
-  "<img src='imdb-logo.svg'/>" +
+  "<img src='svgs/imdb-logo.svg'/>" +
   "</span>" +
   "<span class='imdb-rating-text'>" +
   biGonah.imdb +
@@ -49,7 +49,7 @@ if (biGonah.adult.value) {
   descList.innerHTML +=
     "<div class='parent-guide yellow-color'>" +
     "<span>" +
-    "<img src='parent-guide.svg' />" +
+    "<img src='svgs/parent-guide.svg' />" +
     "</span>" +
     biGonah.adult.text +
     "</div>";
@@ -57,7 +57,7 @@ if (biGonah.adult.value) {
 descList.innerHTML +=
   "<div>" +
   "<span class='release-date'>" +
-  "<img src='calendar.svg' />" +
+  "<img src='svgs/calendar.svg' />" +
   biGonah.releaseDate +
   "</span>" +
   "</div>";
@@ -98,20 +98,24 @@ watchElement.setAttribute("id", "watch-element");
 watchElement.innerHTML +=
   "<div id='watch-element-child'>" +
   "<div class='right-part'>" +
-  "<span>" +
+  "<span class='follow'>" +
   "<span>" +
   "+" +
   "</span>" +
   "دنبال میکنم" +
   "</span>" +
   "<span class='like'>" +
-  "<img src='thumb-up-white.svg'/>" +
+  "<img src='svgs/thumb-up-white.svg'/>" +
   "</span>" +
   "<span class='like'>" +
-  "<img src='thumb-up-white.svg' class='rotate-img' />" +
+  "<img src='svgs/thumb-up-white.svg' class='rotate-img' />" +
   "</span>" +
   "</div>" +
   "<div class='left-part'>" +
+  "<span>" +
+  "<img src='svgs/play-arrow.svg' class='play-arrow' />" +
+  "ورود و تماشا" +
+  "</span>" +
   "</div>" +
   "</div>";
 titleDescriptionContainer.appendChild(watchElement);

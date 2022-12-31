@@ -73,7 +73,7 @@ body {
 }
 #container #titleDescription .poster {
   margin-bottom: 10px;
-  width: 22%;
+  width: 21%;
   height: auto;
   border-radius: 10px;
   border: 3px #f5b83f solid;
@@ -83,12 +83,13 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: stretch;
-  gap: 19px;
+  gap: 15px;
 }
 #container #titleDescription #desc-list h5 {
-  font-size: 12px;
+  font-size: 13px;
   margin: 0;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
+  font-weight: bolder;
 }
 #container #titleDescription #desc-list .eng-title {
   font-family: Tahoma, sans-serif;
@@ -104,8 +105,8 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 9px;
-  padding: 1px 5px;
+  font-size: 8px;
+  padding: 2px 5px;
   border-radius: 10px;
 }
 #titleDescription #desc-list .people-rating span:first-child {
@@ -128,7 +129,7 @@ body {
   gap: 5px;
   display: flex;
   align-items: center;
-  font-size: 9px;
+  font-size: 8px;
   color: black;
   border-radius: 10px;
   background-color: #f6b828;
@@ -139,7 +140,7 @@ body {
 }
 #titleDescription #desc-list .imdb-rating img {
   display: flex;
-  width: 25px;
+  width: 20px;
 }
 #titleDescription #desc-list .parent-guide {
   font-size: 10px;
@@ -166,19 +167,21 @@ body {
   display: flex;
   gap: 5px;
   align-items: center;
-  font-size: 10px;
+  font-size: 8px;
+  padding: 4px 8px;
 }
 #titleDescription #desc-list .release-date img {
-  width: 15px;
-  height: 13px;
+  width: 13px;
+  height: 11px;
 }
 #titleDescription #desc-list .small-font {
-  font-size: 10px;
+  font-size: 8px;
 }
 #titleDescription #desc-list .genre {
   display: flex;
-  gap: 10px;
+  gap: 8px;
   font-size: 9px;
+  margin-top: 7px;
 }
 #titleDescription #desc-list .genre span {
   cursor: pointer;
@@ -186,7 +189,7 @@ body {
   align-items: center;
   background: #4d4d4d;
   font-weight: bold;
-  padding: 4px 8px;
+  padding: 2px 6px;
   border-radius: 10px;
 }
 #titleDescription #desc-list .genre .seperation {
@@ -205,6 +208,7 @@ body {
 #watch-element #watch-element-child {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   position: relative;
   z-index: 100;
   display: flex;
@@ -218,12 +222,23 @@ body {
   align-items: center;
   gap: 5px;
 }
+
 #watch-element #watch-element-child .right-part span {
-  border-radius: 10px;
-  padding: 8px;
-  background: #333333;
+  background: rgba(58, 58, 58, 0.7);
   color: white;
   cursor: pointer;
+  transition: all 0.3s ease-in;
+}
+#watch-element #watch-element-child .right-part span:hover {
+  background: rgba(51, 51, 51, 1);
+}
+#watch-element #watch-element-child .right-part .follow {
+  border-radius: 20px;
+  padding: 8px 14px;
+  display: flex;
+  gap: 5px;
+  font-size: 9px;
+  font-weight: bold;
 }
 #watch-element #watch-element-child .right-part .like {
   display: flex;
@@ -234,9 +249,31 @@ body {
   justify-content: center;
 }
 #watch-element #watch-element-child img {
-  width: 14px;
+  width: 13px;
+  height: 15px;
 }
 #watch-element #watch-element-child .rotate-img {
   transform: rotate(180deg);
   transform-origin: 50% 50%;
+}
+#watch-element #watch-element-child .left-part {
+  color: white;
+  font-size: 9px;
+  font-weight: bold;
+}
+#watch-element #watch-element-child .left-part span {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #1cb561;
+  border-radius: 15px;
+  transition: all 0.3s ease-in;
+  padding: 7px 12px;
+  cursor: pointer;
+}
+#watch-element #watch-element-child .left-part span:hover {
+  opacity: 0.8;
+}
+#watch-element #watch-element-child .left-part img {
+  width: 18px;
 }

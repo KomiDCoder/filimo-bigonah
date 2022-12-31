@@ -11,12 +11,12 @@ rightNav.appendChild(logoImg);
 rightNav.innerHTML += "<p>" + "</p>";
 rightNav.innerHTML +=
   "<a href='#' class='filimotour filimo-hover-button-animation'>" +
-  "<img src='filimotour.svg'/>" +
+  "<img src='svgs/filimotour.svg'/>" +
   "فیلیموتور" +
   "</a>";
 var filimoSchool = document.createElement("a");
 var filimoLogo = document.createElement("img");
-filimoLogo.setAttribute("src", "../icon--white.svg");
+filimoLogo.setAttribute("src", "../svgs/icon--white.svg");
 filimoSchool.setAttribute("href", "#");
 filimoSchool.setAttribute(
   "class",
@@ -27,7 +27,7 @@ filimoSchool.innerHTML += "فیلیمومدرسه";
 rightNav.appendChild(filimoSchool);
 var searchBtn = document.createElement("a");
 var searchLogo = document.createElement("img");
-searchLogo.setAttribute("src", "../search-icon.svg");
+searchLogo.setAttribute("src", "../svgs/search-icon.svg");
 searchBtn.setAttribute("href", "#");
 searchBtn.setAttribute("class", "search-btn filimo-hover-button-animation");
 searchBtn.appendChild(searchLogo);
@@ -38,7 +38,7 @@ var subscription = document.createElement("a");
 subscription.setAttribute("href", "#");
 subscription.setAttribute("class", "subscription");
 var subscriptionImg = document.createElement("img");
-subscriptionImg.setAttribute("src", "video-play.svg");
+subscriptionImg.setAttribute("src", "svgs/video-play.svg");
 subscription.appendChild(subscriptionImg);
 subscription.innerHTML += "خرید اشتراک فیلیمو";
 leftNav.appendChild(subscription);

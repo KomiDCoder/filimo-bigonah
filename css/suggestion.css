@@ -1,0 +1,95 @@
+#container #suggestion-element {
+  margin: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  align-items: stretch;
+  content: "dsfdf";
+  color: aliceblue;
+}
+
+#container #suggestion-element h5 {
+  margin: 0;
+  padding-bottom: 15px;
+}
+#container #suggestion-element #movies-element {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  gap: 10px;
+  height: 100%;
+}
+#suggestion-element img {
+  width: 100%;
+  height: 100%;
+}
+#container #suggestion-element .movie {
+  position: relative;
+  height: 100%;
+  width: 25%;
+}
+#container #suggestion-element .movie-data {
+  transition: all 0.3s ease-in;
+  gap: 5px;
+  background: rgba(41, 41, 41, 0.7);
+  opacity: 0;
+  position: absolute;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  bottom: 35px;
+  height: calc(100% - 33px);
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  font-size: 8px;
+}
+#container #suggestion-element .movie-title {
+  font-size: 9px;
+  padding-right: 3px;
+}
+#container #suggestion-element .movie-data:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+#container #suggestion-element .movie .movie-rating {
+  display: flex;
+}
+#container #suggestion-element .movie .movie-rating .imdb-rating {
+  font-size: 9px;
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  padding-left: 6px;
+  border-radius: 10px;
+  gap: 5px;
+}
+#container #suggestion-element .movie .percent .darker-color {
+  display: flex;
+  align-items: center;
+  padding: 4px 4px;
+}
+#container #suggestion-element .movie .percent .darker-color,
+#container #suggestion-element .movie .movie-rating .imdb-rating .darker-color {
+  background: rgba(255, 255, 255, 0.2);
+  padding: 2px 6px;
+  border-radius: 0 7px 7px 0;
+  font-weight: 900;
+}
+#container #suggestion-element .movie .percent {
+  font-size: 9px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-left: 6px;
+}
+#container #suggestion-element .movie .percent img {
+  width: 11px;
+  height: 13px;
+}
+#container #suggestion-element .movie .production {
+  direction: rtl;
+}

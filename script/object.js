@@ -1,7 +1,7 @@
 var biGonah = {
   bgImg: "https://static.cdn.asset.filimo.com/flmt/mov_cvr_101725_729.jpg",
   videoImage: "https://static.cdn.asset.aparat.com/avt/48733771-7226__5912.jpg",
-  filimoLogo: "../logo--color-white.png",
+  filimoLogo: "../svgs/logo--color-white.png",
   poster: "https://static.cdn.asset.filimo.com/flmt/mov_101725_44660-m.jpg",
   title: "سریال بی‌ گناه",
   engTitle: "Innocent",
@@ -34,8 +34,52 @@ var biGonah = {
     "سریال بی گناه به کارگردانی مهران احمدی در سال 1400 ساخته شده است. این سریال محصول کشور ایران و در ژانر خانوادگی و درام می‌باشد. در این سریال محسن کیایی، ویشکا آسایش، شبنم مقدمی، مهران احمدی، ماهور الوند، آتیلا پسیانی، نسرین نصرتی، حسین پورکریمی، هدیه بازوند، نوید لایقی مقدم، منوچهر زنده دل، دنیا مدنی، مبینا طبایی، مهران وثوقی، مسعود رایگان، مهرانه مهین ترابی، رویا تیموریان، باران احمدی، احسان معجونی و یگانه رادبخش به هنرمندی پرداخته‌اند.",
   episode: {
     ep1: {
-      title: "سریال بی گناه - فصل 1 قسمت 1",
+      title: "سریال بی گناه - فصل ۱ قسمت ۱",
       img: "https://static.cdn.asset.filimo.com/flmt/mov_101724_42457-m.jpg",
+      story:
+        "رازی است در زندگی فروغ كه منوچهر از آن بی خبر است؛ حالا او فهمیده و دیگر نمی تواند به آن بی تفاوت باشد.",
+      time: "۰۱:۰۸:۱۳",
+      rating: {
+        percent: "۹۲",
+        total: "۵۰,۳۹۵",
+      },
+    },
+    ep2: {
+      title: "سریال بی گناه - فصل ۱ قسمت ۲",
+      img: "https://static.cdn.asset.filimo.com/flmt/mov_122494_42697-m.jpg",
+      story:
+        "رازی است در زندگی فروغ كه منوچهر از آن بی خبر است؛ حالا او فهمیده و دیگر نمی تواند به آن بی تفاوت باشد.",
+      time: "۴۷:۴۶",
+      rating: {
+        percent: "۹۳",
+        total: "۳۶,۱۶۹",
+      },
+    },
+    ep3: {
+      title: "سریال بی گناه - فصل ۱ قسمت ۳",
+      img: "https://static.cdn.asset.filimo.com/flmt/mov_122677_43978-m.jpg",
+      story:
+        "رازی است در زندگی فروغ كه منوچهر از آن بی خبر است؛ حالا او فهمیده و دیگر نمی تواند به آن بی تفاوت باشد.",
+      time: "۰۱:۰۸:۱۳",
+      rating: {
+        percent: "۹۲",
+        total: "۵۰,۳۹۵",
+      },
+    },
+    ep4: {
+      title: "سریال بی گناه - فصل ۱ قسمت ۴",
+      img: "https://static.cdn.asset.filimo.com/flmt/mov_123421_44214-m.jpg",
+      story:
+        "رازی است در زندگی فروغ كه منوچهر از آن بی خبر است؛ حالا او فهمیده و دیگر نمی تواند به آن بی تفاوت باشد.",
+      time: "۰۱:۰۸:۱۳",
+      rating: {
+        percent: "۹۲",
+        total: "۵۰,۳۹۵",
+      },
+    },
+    ep5: {
+      title: "سریال بی گناه - فصل ۱ قسمت ۵",
+      img: "https://static.cdn.asset.filimo.com/flmt/mov_123567_44936-m.jpg",
       story:
         "رازی است در زندگی فروغ كه منوچهر از آن بی خبر است؛ حالا او فهمیده و دیگر نمی تواند به آن بی تفاوت باشد.",
       time: "۰۱:۰۸:۱۳",
@@ -100,7 +144,7 @@ var biGonah = {
     },
     cast14: {
       name: "مهران وثوقی",
-      img: "./user-profile-4255.png",
+      img: "./svgs/user-profile-4255.png",
     },
     cast15: {
       name: "مسعود رایگان",
@@ -124,7 +168,7 @@ var biGonah = {
     },
     cast20: {
       name: "یگانه رادبخش",
-      img: "./user-profile-4255.png",
+      img: "./svgs/user-profile-4255.png",
     },
   },
   crews: {
@@ -162,45 +206,45 @@ var biGonah = {
     film1: {
       img: "https://static.cdn.asset.filimo.com/flmt/mov_85465_19639-m.jpg",
       name: "جیران",
-      percent: 94,
+      percent: "۹۴",
       imdb: 6.4,
       genre: "عاشقانه - تاریخی",
-      production: "1400 - ایران",
+      production: "۱۴۰۰ - ایران",
       series: true,
     },
     film2: {
       img: "https://static.cdn.asset.filimo.com/flmt/mov_17794_21741-m.jpg",
       name: "تمشک",
-      percent: 85,
+      percent: "۸۵",
       imdb: 5.1,
       genre: "درام",
-      production: "1392 - ایران",
+      production: "۱۳۹۲ - ایران",
       series: false,
     },
     film3: {
       img: "https://static.cdn.asset.filimo.com/flmt/mov_119938_39422-m.jpg",
       name: "درمانگر",
-      percent: 92,
+      percent: "۹۲",
       genre: "جنایی - رازآلود",
-      production: "1401 - ایران",
+      production: "۱۴۰۱ - ایران",
       series: true,
     },
     film4: {
       img: "https://static.cdn.asset.filimo.com/flmt/mov_srl_28093_114-m.jpg",
       name: "هم گناه",
-      percent: 96,
+      percent: "۹۶",
       imdb: 6.8,
       genre: "درام - رازآلود",
-      production: "1398 - ایران",
+      production: "۱۳۹۸ - ایران",
       series: true,
     },
     film5: {
       img: "https://static.cdn.asset.filimo.com/flmt/mov_16670_1-m.jpg",
       name: "حریم شخصی",
-      percent: 83,
+      percent: "۸۳",
       imdb: 4.4,
       genre: "درام",
-      production: "1395 - ایران",
+      production: "۱۳۹۵ - ایران",
       series: false,
     },
   },
